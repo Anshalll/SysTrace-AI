@@ -191,9 +191,19 @@ function Home() {
           <span className="grid size-[34px] place-items-center rounded-[10px] border border-violet-300/25 bg-violet-300/10 text-[#b7a3ff]"><Icon name="activity" size={19} /></span>
           <span className="font-['Manrope'] text-[19px] font-extrabold tracking-[-1px]">SysTrace <span className="text-[#b8a2ff]">AI</span></span>
         </Link>
-        <nav className="flex items-center gap-5 sm:gap-8" aria-label="Main navigation">
+        <nav className="flex items-center gap-2 sm:gap-8" aria-label="Main navigation">
           <a className="hidden text-[11px] text-[#a1a2af] transition hover:text-white sm:inline" href="#capabilities">Capabilities</a>
           <a className="hidden text-[11px] text-[#a1a2af] transition hover:text-white sm:inline" href="#how-it-works">How it works</a>
+          <a
+            className="inline-flex h-9 items-center gap-1.5 rounded-lg border border-white/[0.09] px-2.5 text-[10px] font-semibold text-[#c8c7d2] transition hover:border-white/20 hover:bg-white/[0.04] hover:text-white sm:gap-2 sm:px-3 sm:text-[11px]"
+            href="https://github.com/Anshalll/SysTrace-AI"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="View SysTrace AI source code on GitHub (opens in a new tab)"
+          >
+            <Icon name="github" size={15} />
+            GitHub
+          </a>
           <Link className="inline-flex h-9 items-center gap-2 rounded-lg border border-white/[0.11] bg-white/[0.04] px-3.5 text-[10px] font-semibold text-[#e6e5ed] transition hover:border-violet-300/30 hover:bg-violet-300/[0.08] sm:px-4 sm:text-[11px]" to="/dashboard">
             Open dashboard <Icon name="chevron" size={14} />
           </Link>
